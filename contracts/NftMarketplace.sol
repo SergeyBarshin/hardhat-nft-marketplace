@@ -21,6 +21,7 @@ contract NftMarketplace {
         if (nft.getApproved(tokenId) != address(this)) {
             revert NftMarketplace__NotApprivedForMarketPlace();
         }
+        //
     }
 }
 
